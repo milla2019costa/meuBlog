@@ -1,0 +1,29 @@
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Post</title>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+
+</head>
+<body>
+<div class="post_detail">
+    <h1><a href="/">Blog djang</a></h1>
+</div>
+
+
+   <div class="post">
+        {% if post.published_date %}
+            <div class="date">
+                {{post.published_date}}
+            </div>
+       {%endif%}
+       <h1> {{ post.title }}</h1>
+       <p> {{ post.text }}</p>
+
+   </div>
+
+
+</body>
+</html>
