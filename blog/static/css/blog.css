@@ -1,13 +1,16 @@
 
 body{
      background-color: #FFFAFA;
-     font-family: 'Nanum Gothic', sans-serif;
+     font-family: 'Dancing Script', cursive;
+      font-family: 'Oswald', sans-serif;
     }
 
 .page-header {
      background-color: #CD5C5C;
      margin-top: 0;
      padding: 20px 20px 20px 40px;
+
+
 }
 
 .page-header h1, .page-header h1 a, .page-header a:visited,
